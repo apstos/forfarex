@@ -1,0 +1,10 @@
+<script>
+var link = document.location +"";
+var data = link.split("?");
+var link= data[[data.length - 1]];
+if(link!=null && link.length>10){
+	window.location.replace("http://psd.ajarroue.me.uk/?" + link);
+}else{
+	window.location.replace("http://psd.ajarroue.me.uk/404");
+}
+</script>
